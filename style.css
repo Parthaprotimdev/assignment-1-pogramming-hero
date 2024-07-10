@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+  color: rgb(13, 19, 33);
+}
+
+.hero-bg {
+  background-image: url("./assets/hero-bg.png");
+  margin-top: 130px;
+}
+
+.hero {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 652px;
+}
+
+.hero > img {
+  margin-bottom: 32px;
+}
+
+.hero > h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hero > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  width: 852px;
+  margin-bottom: 32px;
+}
+
+.hero > button {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
+
+.hero > button > a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.web-dev {
+  margin: 0 auto;
+  width: 1140px;
+  height: 1393px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  margin-top: 74px;
+}
+
+.web-dev > h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.web-dev > p {
+  width: 852px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
